@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/*cabeçalho*/
+.topo{
+    padding: 33px;
+    width: 1280px;
+    height: 613px;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+}
+
+.ola, .h2{
+    position: absolute;
+    width: 539px;
+    height: 52px;
+    left: 87px;
+    top: 200px;
+    margin: 0, 10, 0, 10;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+}
+.button{
+    margin: 10px;
+    width: 315px;
+    height: 62px;
+    border-radius: 100px;
+    font-size: 18px;
+}
+.button :hover{
+    margin: 10px;
+    width: 315px;
+    height: 62px;
+    border-radius: 100px;
+    font-size: 18px;
+}
+.foto img{
+    max-width: 550px;
+    margin-left: 650px;
+    margin-top: 80px;
+
+}
+
+/*meio da pagina*/
+.container{
+    width: 1280px;
+    padding: 33px;
+    background-color: purple;
+    display: flexbox;
+}
+.container h2{
+    font-size: 38px;
+    writing-mode: vertical-lr;
+}
+
+.resumo{
+    background-color: maroon;
+    display: inline-block;
+}
+.resumo, .p{
+    font-size: 18px;
+    margin-left: 50px;
+    
+}
+.experiencia{
+    background-color: rgb(138, 80, 80);
+}
+.experiencia, .h2, .p{
+
+}
+.mega{
+
+}
+.arte{
+
+}
+.bufalo{
+
+}
+.rack{
+
+}
+.locguel{
+
+}
+.certificados{
+    background-color: red;
+}
+.certificados, .h2{
+
+}
+.certificados, .p{
+
+}
+.programas{
+    background-color: firebrick;
+}
+.programas,  .h2{
+
+}
+.programas,  .p{
+ 
+}
+.contato{
+    background-color: #ff0000;
+}
+.contato, .img{
+
+}
+.contato, .p{
+
+}
+/*rodape*/
+footer{
+    background-color: rgb(208, 255, 0);
+}
+.gostou{
+    background-color: rgb(255, 0, 106);
+}
+.gostou, .p{
+
+}
+.baixar{
+    
+}

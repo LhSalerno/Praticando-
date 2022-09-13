@@ -53,141 +53,21 @@
 }
 
 /*meio da pagina*/
-
-
-.container{
-    display: block;
-    width: 1280px;
-    padding: 33px;
-    background-color: purple;
-    display: flexbox;
+.resumo{
+    margin-top: 80px;
+    margin-left: 100px;
+    padding: 50px ;
 }
-.container h2{
-    align-items: flex-start;
-    width: 20px;
-    height: 15px;
-    padding: 10px;
-    font-size: 30px;
+
+.resumo h2{
+    display: flex;
+    align-items:flex-start ;
     writing-mode: vertical-lr;
 }
-
-.resumo{
-    background-color: maroon;
-    display: inline-block;
-}
 .resumo, .p{
-    text-align:left;
-    display: flex;
-    width: 1200px;
-    height: 100px;
-    padding: 5px;
-    font-size: 18px;
-    margin-left: 50px;
-}
-.experiencia{
-    display: inline-flexbox;
-    width: 1280px;
-    height: 2000px;
-    
-    background-color: rgb(138, 80, 80);
-}
-.experiencia, .h2, .p{
-    text-align:left;
-    display: flex;
-    width: 1200px;
-    height: 100px;
-    padding: 5px;
-    font-size: 18px;
-    margin-left: 50px;
-}
-.mega{
-    text-align:left;
-    display: flex;
-    width: 1200px;
-    height: 100px;
-    padding: 5px;
-    font-size: 18px;
-    margin-left: 50px;
-
-}
-.arte{
-    text-align:left;
-    display: flex;
-    width: 1200px;
-    height: 100px;
-    padding: 5px;
-    font-size: 18px;
-    margin-left: 50px;
-
-}
-.bufalo{
-    text-align:left;
-    display: flex;
-    width: 1200px;
-    height: 100px;
-    padding: 5px;
-    font-size: 18px;
-    margin-left: 50px;
-
-}
-.rack{
-    text-align:left;
-    display: flex;
-    width: 1200px;
-    height: 100px;
-    padding: 5px;
-    font-size: 18px;
-    margin-left: 50px;
-
-}
-.locguel{
-
-    text-align:left;
-    display: flex;
-    width: 1200px;
-    height: 100px;
-    padding: 5px;
-    font-size: 18px;
-    margin-left: 50px;
-}
-.certificados{
-    width: 600px;
-    background-color: red;
-}
-.certificados, .h2{
-
-}
-.certificados, .p{
-
-}
-.programas{
-    background-color: firebrick;
-}
-.programas,  .h2{
-
-}
-.programas,  .p{
- 
-}
-.contato{
-    background-color: #ff0000;
-}
-.contato, .img{
-
-}
-.contato, .p{
-
-}
-/*rodape*/
-footer{
-    background-color: rgb(208, 255, 0);
-}
-.gostou{
-    background-color: rgb(255, 0, 106);
-}
-.gostou, .p{
-
-}
-.baixar{
-    
+    gap: 50px;
+    align-items: center;
+    display: inline-flex;
+    width: 1109px;
+    height: 105px;
 }

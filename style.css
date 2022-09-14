@@ -55,11 +55,12 @@
 /*meio da pagina*/
 .resumo{
     margin-top: 80px;
-    margin-left: 100px;
+    margin-left: 15px;
     padding: 50px ;
 }
 
 .resumo h2{
+    font-size: 30px;
     display: flex;
     align-items:flex-start ;
     writing-mode: vertical-lr;
@@ -70,4 +71,58 @@
     display: inline-flex;
     width: 1109px;
     height: 105px;
+}
+
+#experiencia{
+    display: inline-block;
+    align-items: flex-start;
+    width: 700px;
+    margin-left: 58px;
+}
+#experiencia h2{
+    display: flex;
+    align-items: flex-start;
+    font-size: 30px;
+    writing-mode: vertical-lr;
+}
+.container2{
+    float: right;
+    width: 480px;
+    display: inline-block;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+.container2 h2{
+    writing-mode: vertical-lr;
+}
+#contato img{
+    max-width: 350px;
+    margin-left: 50px;
+}
+footer{
+    height: 200px;
+    background-color: #222222;
+}
+
+.gostou{
+    padding: 80px;
+    align-items: center;
+}
+.gostou p{
+    font-size: 28px;
+}
+.baixar{
+    float: right;
+    margin: 10px;
+    width: 315px;
+    height: 62px;
+    border-radius: 100px;
+    font-size: 18px;
+}
+.baixar :hover{
+    margin: 10px;
+    width: 315px;
+    height: 62px;
+    border-radius: 100px;
+    font-size: 18px;
 }

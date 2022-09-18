@@ -53,6 +53,15 @@
 }
 
 /*meio da pagina*/
+
+main{
+    margin: 1px;
+    padding: 2px;
+    align-items:inherit;
+    flex-direction: column;
+    display:flex;
+}
+
 .resumo{
     margin-top: 80px;
     margin-left: 15px;
@@ -74,11 +83,13 @@
 }
 
 #experiencia{
+    position: absolute;
     gap: 35px;
     display: flex;
     align-items: flex-start;
-    width: 700px;
+    width: 680px;
     margin-left: 58px;
+    padding: auto;
 }
 #experiencia h2{
     width: 30px;
@@ -94,38 +105,40 @@
     float: right;
 }
 .container2{
-    gap: 50px;
-    width: 480px;
+    gap: 10px;
+    width:550px;
     padding: 10px;
     float: right;
     display: flex;
     margin-left: 10px;
+    flex-direction: column;
+    
 }
 
 .container2 h2{
-    width: 30px;
-    display: flex;
+    width: 10px;
+    height: 289px;
+    display: inline-flex;
     font-size: 30px;
     writing-mode: vertical-lr;
 }
-.certificado{
+.certificado{    
     flex-direction: column;
-    float: right;
-    display: flex;
-    width: 400px;
+    float:inline-start;
+    display:inline-flexbox;
 }
 .certificado p{
-    float:inline-start;
-    display: flex;
-    width: 400px;
-   
+    margin-left: 50px;
+    margin-top: 5px;
+    display: flexbox;
+    align-items: flex-start;   
 }
 
 #contato img{
     float: right;
-    display: flex;
-    max-width: 350px;
-    margin-left: 50px;
+    display: inline-flex;
+    max-width: 449px;
+    
 }
 footer{
     height: 200px;

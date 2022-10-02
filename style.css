@@ -105,19 +105,13 @@ main{
     float: right;
 }
 .container2{
-    gap: 10px;
     width:550px;
-    padding: 10px;
     float: right;
     display: flex;
-    margin-left: 10px;
     flex-direction: column;
-    
 }
 
 .container2 h2{
-    width: 10px;
-    height: 289px;
     display: inline-flex;
     font-size: 30px;
     writing-mode: vertical-lr;
@@ -128,10 +122,10 @@ main{
     display:inline-flexbox;
 }
 .certificado p{
-    margin-left: 50px;
-    margin-top: 5px;
-    display: flexbox;
-    align-items: flex-start;   
+    display: flex;
+    align-items: flex-start;
+    width: 450px;
+    float: right;
 }
 
 #contato img{
